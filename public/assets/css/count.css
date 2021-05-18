@@ -1,68 +1,69 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    /* 全体の横幅 */
-    width: 320px;
-    /* 全体を中央寄せ */
-    margin: auto;
-    /* 全体の余白 */
-    padding: 10px;
-}
+*{ box-sizing: border-box; } 
 
-/* 数字 */
-h1{
+body{ 
+    /* 全体の横幅 */
+    width: 325px;
+    /* 全体を中央寄せ */ 
     margin: auto;
-    
-    /* 文字の太さ */
+    /* 全体の余白 */ 
+    padding: 10px;
+    /*背景の色*/
+    background: #00b5de; }
+    /* 数字 */
+
+body h1{
+    margin: auto;
+    /* 文字の太さ */ 
     font-weight: 100;
-    
-    /* 文字を中央寄せ */
+    font-size: 100px;
+    /* 文字を中央寄せ */ 
     text-align: center;
-    
     /* 横幅 */
-    width: 100px;
-    
-    /* 縦幅 */
-    height: 100px;
-    line-height: 100px;
-    
+    width: 250px;
+    /* 縦幅 */ 
+    height: 250px;
+    line-height: 250px;
     /* 枠の太さ 線の種類 色 */
-    border: 1px solid #009688;
-    
+    border: 3px solid #d8d8d8;
     /* 枠を丸くする */
     border-radius: 50%;
-}
+    color: #edda15;
+    }
+    /* ボタン共通 */
+input{ border: 0;
+       background: none;
+       display: block;
+       margin: auto; 
+       width: 80%; 
+       text-align: center;
+       /* 上との余白 */ 
+       margin-top: 20px;
+       /* 文字の大きさ */ 
+       font-size: 20px; 
+     } 
+    /* プラスボタン */ 
+input[value="+"]{ 
+    /* 文字の色 */ 
+    color: #d8d8d8; 
+    /* 背景 */ 
+    background: #e94c4d;
+    } 
+    /* マイナスボタン */ 
+input[value="-"]{ 
+    color: #d8d8d8;
+    background: #c2ca2e; 
+    } 
 
-/* ボタン共通 */
-input{
-    border: 0;
-    background: none;
-    display: block;
-    margin: auto;
-    
-    width: 80%;
-    text-align: center;
-    
-    /* 上との余白 */
-    margin-top: 20px;
-    
-    /* 文字の大きさ */
-    font-size: 20px;
-}
+input[value="clear"]{
+    color: #d8d8d8;
+    background: #f8b516; 
+    }
 
-/* プラスボタン */
-input[value="+"]{
+.thr{ 
+    border-color: #f8b516;
+    color: #d01026; 
+    } 
     
-    /* 文字の色 */
-    color: #f9f9f9;
-    
-    /* 背景 */
-    background: #448AFF;
-}
+.fiv{ color: #ec6c1f; } 
 
-/* マイナスボタン */
-input[value="-"]{
-    color: #f9f9f9;
-    background: #F44336;
-}
+.fif{ border-color: #f8b516; color: #2a6d39; }
