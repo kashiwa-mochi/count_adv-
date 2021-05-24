@@ -19,10 +19,10 @@ body h1{
     /* 文字を中央寄せ */ 
     text-align: center;
     /* 横幅 */
-    width: 250px;
+    width: 200px;
     /* 縦幅 */ 
-    height: 250px;
-    line-height: 250px;
+    height: 200px;
+    line-height: 200px;
     /* 枠の太さ 線の種類 色 */
     border: 3px solid #d8d8d8;
     /* 枠を丸くする */
