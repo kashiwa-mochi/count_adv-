@@ -66,4 +66,10 @@ input[value="clear"]{
     
 .fiv{ color: #ec6c1f; } 
 
-.fif{ border-color: #f8b516; color: #2a6d39; }
+.fif{ border-color: #f8b516; 
+     color: #2a6d39; }
+
+.whl_thr{
+     border-color: #f8b516;
+     color:#d8d8d8;
+}

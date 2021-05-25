@@ -13,8 +13,10 @@
       <h1 class="fif"><%= @number %></h1> 
     <% elsif @number % 5 == 0 && @number != 0 %> 
       <h1 class="fiv"><%= @number %></h1>
-    <% elsif @number % 3 == 0 && @number != 0 || @number % 10 == 3 %> 
+    <% elsif @number % 3 == 0 && @number != 0 %> 
       <h1 class="thr"><%= @number %></h1> 
+    <% elsif @number.to_s.include?("3")  %>
+      <h1 class="whl_thr"><%= @number %></h1> 
     <% else %>
       <h1><%= @number %></h1> 
     <% end %> 
