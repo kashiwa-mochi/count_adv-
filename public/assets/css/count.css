@@ -59,17 +59,33 @@ input[value="clear"]{
     background: #f8b516; 
     }
 
-.thr{ 
-    border-color: #f8b516;
-    color: #d01026; 
-    } 
-    
-.fiv{ color: #ec6c1f; } 
+.fif_whl_thr{
+    border-color:#f8b516;
+    color:#2a6d39;
+}
 
-.fif{ border-color: #f8b516; 
-     color: #2a6d39; }
+.fiv_whl_thr{
+    border-color:#f8b516;
+    color:#ec6c1f;
+}
+
+.thr_whl_thr{
+    border-color:#f8b516;
+    color:#d01026;
+}
 
 .whl_thr{
-     border-color: #f8b516;
-     color:#d8d8d8;
+    border-color:#f8b516;
+    color:#edda15;
+}
+
+.fiv{
+    border-color:#d8d8d8;
+    color:#ec6c1f;
+    
+}
+
+.fif{
+    border-color:#d8d8d8;
+    color:#2a6d39;
 }

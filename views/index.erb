@@ -10,20 +10,20 @@
 <body> 
   <div> 
     <% if @number % 3 == 0 && @number != 0 || @number.to_s.include?("3")  %> 
-      <% if  % 3 == 0%>
-        <h1 class="thr whl_thr"><%= @number %></h1> 
-      <% elsif @number % 5 == 0%>
-        <h1 class="fiv whl_thr"><%= @number %></h1>
-      <% elsif @number % 15 == 0 %>
-        <h1 class="fif whl_thr"><%= @number %></h1>
+      <% if  @number % 15 == 0 %>
+        <h1 class="fif_whl_thr"><%= @number %></h1> 
+      <% elsif @number % 3 == 0 %>
+        <h1 class="thr_whl_thr"><%= @number %></h1>
+      <% elsif @number % 5 == 0 %>
+        <h1 class="fiv_whl_thr"><%= @number %></h1>
       <% else %>
         <h1 class="whl_thr"><%= @number %></h1>
       <% end %>
     <% else %>
-      <% if @number % 5 == 0%>
-        <h1 class="fiv"><%= @number %></h1>
-      <% elsif @number % 15 == 0 %>
-        <h1 class="fif"><%= @number %></h1> 
+      <% if @number % 15 == 0 %>
+        <h1 class="fif"><%= @number %></h1>
+      <% elsif @number % 5 == 0 %>
+        <h1 class="fiv"><%= @number %></h1> 
       <% else %>
         <h1><%= @number %></h1>
       <% end %>
